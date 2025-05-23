@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <!-- For Render all elemnts -->
+    <link rel="stylesheet" href="style/all.min.css" />
+    <!-- For <Awesome Icons -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- For Main CSS -->
+
+    <title>Star Terk | Tarek Hegazy</title>
+  </head>
+  <body>
+    <!-- Start Settings -->
+    <div class="settings">
+      <div class="setting-tog">
+        <i class="sett fas fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#FF9800"></li>
+            <li data-color="#FF5722"></li>
+            <li data-color="#00BCD4"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#009688"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="background-option">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+          <div class="backgrounds">
+            <div data-back="imgs/1.jpg" class="img">
+              <img src="imgs/1.jpg" />
+            </div>
+            <div data-back="imgs/2.jpg" class="img">
+              <img src="imgs/2.jpg" />
+            </div>
+            <div data-back="imgs/3.jpg" class="img">
+              <img src="imgs/3.jpg" />
+            </div>
+            <div data-back="imgs/4.jpg" class="img">
+              <img src="imgs/4.jpg" />
+            </div>
+            <div data-back="imgs/5.jpg" class="img">
+              <img src="imgs/5.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="yes">Yes</span>
+            <span class="no" data-display="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Fixed Navigation</h4>
+          <div class="fixed-option">
+            <span class="yes" data-fixed="yes">Yes</span>
+            <span class="no" data-fixed="no">No</span>
+          </div>
+        </div>
+        <button class="reset-option">Reset Option</button>
+      </div>
+    </div>
+    <!-- End Settings -->
+    <!-- Start nav bullets -->
+    <div class="nav-bullet">
+      <div class="bullet" data-section=".about-us">
+        <div class="section">About Us</div>
+      </div>
+      <div class="bullet" data-section=".our-skills">
+        <div class="section">Our Skill</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="section">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="section">Our Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="section">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="section">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="section">Contact Us</div>
+      </div>
+    </div>
+    <!-- End nav bullets -->
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div  class="logo"><a href="#intro" class="logo">Star Terk</a></div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a class="active" href="#about" data-section=".about-us"
+                  >About</a
+                >
+              </li>
+              <li><a href="#" data-section=".our-skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars show-menu"></i>
+          </div>
+        </div>
+        <div class="intro" id="intro">
+          <h1>We Are <span>Star Terk</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start About Us -->
+    <div class="container">
+      <div id="about" class="about-us">
+        <div class="text-info">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua,
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="image">
+          <img src="imgs/about-us.png" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start Our Skills -->
+    <div class="our-skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End our Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="image-box">
+          <img src="imgs/1.jpg" alt="Image One" />
+          <img src="imgs/2.jpg" alt="Image Two" />
+          <img src="imgs/3.jpg" alt="Image Three" />
+          <img src="imgs/4.jpg" alt="Image Four" />
+          <img src="imgs/5.jpg" alt="Image Five" />
+          <img src="imgs/6.jpg" />
+          <img src="imgs/7.jpg" />
+          <img src="imgs/8.jpg" />
+          <img src="imgs/9.jpg" />
+          <img src="imgs/10.jpg" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Start Time Line  -->
+
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-container">
+          <div class="year">2025</div>
+          <div class="left">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2024</div>
+          <div class="left">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2023</div>
+          <div class="right">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2021</div>
+          <div class="left">
+            <div class="content">
+              <h3>Lastest News</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Time Line  -->
+
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <h2>Our Features</h2>
+        <div class="feat-box">
+          <i class="fa-brands fa-connectdevelop"></i>
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <i class="fa-solid fa-atom"></i>
+          <h4>Science</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <i class="fa-brands fa-wpbeginner"></i>
+          <h4>Enginnering</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <i class="fa-solid fa-microchip"></i>
+          <h4>Technology</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <i class="fa-brands fa-servicestack"></i>
+          <h4>Services</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <h4>History</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="test-content">
+          <p>
+            Iam very happy with the product, its amazing and i recieved it very
+            fast and the price was amazing.
+          </p>
+          <div class="personal-info">
+            <img src="imgs/testi-pic01.jpg" />
+            <h4>Tarek Hegazy</h4>
+            <p>Web Development</p>
+          </div>
+        </div>
+        <div class="test-content">
+          <p>
+            Iam very happy with the product, its amazing and i recieved it very
+            fast and the price was amazing.
+          </p>
+          <div class="personal-info">
+            <img src="imgs/testi-pic02.jpg" />
+            <h4>Tarek Hegazy</h4>
+            <p>Web Development</p>
+          </div>
+        </div>
+        <div class="test-content">
+          <p>
+            Iam very happy with the product, its amazing and i recieved it very
+            fast and the price was amazing.
+          </p>
+          <div class="personal-info">
+            <img src="imgs/testi-pic03.jpg" />
+            <h4>Tarek Hegazy</h4>
+            <p>Web Development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="left">
+            <input type="text" name="username" placeholder="Your Name" />
+            <input type="number" name="phone" placeholder="Your Phone" />
+            <input type="email" name="email" placeholder="Your Email" />
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" name="" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    </ul>
+    <!-- End Testimonials -->
+    <!-- Start Footer -->
+    <div class="footer">Designed by Tarek Hegazy | 201021320018
+    </div>
+    <!-- End Footer -->
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
