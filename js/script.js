@@ -165,7 +165,7 @@ function RandomBackGround() {
 		backgroundInterval = setInterval(() => {
 			let randomNumber = Math.floor(Math.random() * imgsArray.length);
 			landPage.style.backgroundImage = 'url("imgs/' +imgsArray[randomNumber]+ '")';
-		}, 10000);
+		}, 3000);
 	}
 }
 RandomBackGround();
